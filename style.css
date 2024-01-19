@@ -1,0 +1,136 @@
+/* hide scrollbar*/
+::-webkit-scrollbar {
+          display: none;
+}
+/* hide scrollbar*/
+/* selceted tags */
+*{
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+
+}
+nav{
+          font-family: sans-serif;
+          text-transform: capitalize;
+}
+body{
+          background-color: #fff;
+          height: 100vh;
+          width: 100%;
+}
+li{
+          list-style-type: none;
+}
+a{
+          text-decoration: none;
+          color: #1d3557;
+}
+a:hover{
+          text-decoration: underline;
+          color: #1d3557;
+}
+ul{
+          line-height: 20px;
+}
+/* id and classes */
+.container{
+          margin-top: 100px
+}
+.body-container{
+          background-color: #fff;
+          border-radius: 20px;
+          padding: 20px;
+}
+.textt{
+          margin-top: 200px;
+}
+.nav{
+          display: flex;
+}
+.nav .logo{
+          padding: 20px;
+          margin-left: 5px;
+          height: 100px;
+}
+nav ul{
+          margin-left: 60px;
+          margin-top: 60px;
+          display: flex;
+}
+nav ul  li .home{
+          font-size: 15px;
+          text-decoration: none;
+          color: #1d3557;
+          letter-spacing: 2px;
+}
+.logosandtext{
+          display: flex;
+}
+.search{
+          width: 200px;
+          margin-left: 420px;
+}
+.login{
+          margin-left: 220px;
+          color: #13C2C2;
+}
+.sup{
+          margin-left: 100px;
+          cursor: pointer;
+          border-radius: 20px;
+          border: solid #13C2C2;
+          height: 30px;
+          background-color: #13C2C2;
+          color: #fff;
+          margin-top: -10px;
+}
+.sup h1{
+          padding: 6px;
+}
+.text1{
+          margin-top: 50px;
+          color: #13C2C2;
+          font-size: 80px;
+          font-family: sans-serif;
+          margin-left: 40px;
+}
+.text2{
+          margin-top: 50px;
+          color: #000;
+          font-size: 50px;
+          font-family: sans-serif;
+          margin-left: 40px;
+}
+.paragraph{
+          font-size: 25px;
+          margin-top: 40px;
+          margin-left: 60px;
+}
+.btn-2{
+          font-size: 15px;
+          width: 200px;
+          background-color: #13C2C2;
+          color: #fff;
+          padding: 5px;
+          text-transform: capitalize;
+          font-family: sans-serif;
+          border-radius: 20px;
+}
+.login-in{
+          font-family: sans-serif;
+          padding: 4px;
+          border: 2px solid #13C2C2;
+          background-color: #fff;
+          color: #13C2C2;
+}
+.btn-3{
+          margin-top: 2px;
+}
+.class{
+          margin-top: 10px;
+}
+.firebase{ 
+          margin-top: 60px;
+          margin-left: 100px;
+}
